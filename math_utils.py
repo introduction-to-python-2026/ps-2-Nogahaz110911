@@ -5,7 +5,9 @@ def find_max_number(num1, num2, num3):
       return num2
     return num3
 def find_mean(num1, num2, num3):
-    pass  # Replace 'pass' with code
+    total = num1 + num2 + num3
+    mean_value = total / 3
+    return mean_value
 
 def find_mean_std(num1, num2, num3):
     mean = find_mean(num1, num2, num3)
